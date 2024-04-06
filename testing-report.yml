@@ -33,7 +33,7 @@
 
 - summary: |
     Проверка кроссбраузерности  Firefox
-  status: fail
+  status: pass
 
 - summary: |
    Проверка кроссбраузерности Edge
