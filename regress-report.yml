@@ -1,5 +1,5 @@
----
-test-cases:
+  ---
+  test-cases:
   - summary: |
       Успешное оформление заказа при низкой скорости интернета
     status: pass
@@ -52,7 +52,7 @@ test-cases:
       Проверка английского интерфейса
     status: pass
 
-bugreports:
+  bugreports:
   - summary: |  
       Ошибка при проверке фильтрации товаров, по несуществующему ключевому слову 
     environment: |
