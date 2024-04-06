@@ -65,18 +65,16 @@ bugreports:
       Сообщение "Ничего не найдено!"
     actual-result: |
       Показываются все товары
-  - summary: |  
-      Пропала кнопка перехода на следующую страницу с товарами   
-    environment: |
-      Яндекс-браузер   107.0.5304.121 (Официальная сборка) (64 бит)
-      ОС Windows 11
-    steps-to-reproduce: |
-      1. Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Отключить чек- бокс "In Stock"
-    expected-result: |
-      Показаны все товары что есть на складе и которых нет
-    actual-result: |
-      Показываются все товары, но пропала кнопка "Next"
-
-  
-0 comments on commit 9631cf1
+    
+- summary: |
+    Пропадает кнопка перехода на следующую страницу
+  environment: |
+    Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Открыть главную страницу приложения https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    2. Отключить чек-бокс "In stock"
+  expected-result: |
+    Выведены все товары (которые есть на складе и те, что отсутствуют)
+  actual-result: |
+    Выведены все товары, но кнопка переключения страниц "Next" отсутствует. Это также происходит при поиске по ключевому слову, категории, брэнду и фильтрации по цене.
