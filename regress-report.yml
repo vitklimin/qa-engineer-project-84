@@ -65,3 +65,16 @@ bugreports:
       Сообщение "Ничего не найдено!"
     actual-result: |
       Показываются все товары
+
+  - summary: |  
+      Пропала кнопка перехода на следующую страницу с товарами   
+    environment: |
+      Яндекс-браузер   107.0.5304.121 (Официальная сборка) (64 бит)
+      ОС Windows 11
+    steps-to-reproduce: |
+      1. Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Отключить чек- бокс "In Stock"
+    expected-result: |
+      Показаны все товары что есть на складе и которых нет
+    actual-result: |
+      Показываются все товары, но пропала кнопка "Next"
