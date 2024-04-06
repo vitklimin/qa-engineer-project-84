@@ -1,0 +1,62 @@
+---
+- summary: |
+    Успешное оформление заказа при низкой скорости интернета
+  status: pass
+
+- summary: |
+   Успешный просмотр карточки товара при низкой скорости интернета
+  status: pass
+
+- summary: |
+    Успешный поиск по ключевому слову
+  status: pass
+
+- summary: |
+   Проверка работы поиска товара по несуществующему ключевому слову на сайте
+  status: fail
+
+- summary: |
+    Проверка фильтрации товаров по категории
+  status: pass
+
+- summary: |
+   Фильтрация товаров по 2 параметрам
+  status: pass
+
+- summary: |
+    Проверка работы  мобильной версии сайта
+  status: pass
+
+- summary: |
+   Проверка кроссбраузерности Google Chrome
+  status: pass
+
+- summary: |
+    Проверка кроссбраузерности  Firefox
+  status: pass
+
+- summary: |
+   Проверка кроссбраузерности Edge
+  status: pass
+
+- summary: |
+    Проверка русского интерфейса
+  status: fail
+
+- summary: |
+   Проверка английского интерфейса
+  status: pass
+
+bugreports:
+- summary: |  
+    Ошибка при проверке фильтрации товаров, по несуществующему ключевому слову 
+  environment: |
+    Яндекс-браузер   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Windows 11
+  steps-to-reproduce: |
+    1. Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    2. Написать несуществующее ключевое слово в поле "Поиск"
+  expected-result: |
+    Сообщение "Ничего не найдено!"
+  actual-result: |
+    Показываются все товары
