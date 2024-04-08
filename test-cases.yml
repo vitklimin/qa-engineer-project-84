@@ -4,7 +4,7 @@
   requirement: |
     Сайт разработан с учетом удобства использования и оптимизирован для скорости работы 
   prerequisites: |
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Сеть- "Slow 3G"
   steps:
@@ -21,7 +21,7 @@
   requirement: |
     Сайт разработан с учетом удобства использования и оптимизирован для скорости работы
   prerequisites:
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Сеть- "Slow 3G"
   steps:
@@ -36,7 +36,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites: |
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Ключевое слово "iPhone"
   steps:
@@ -49,7 +49,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites:
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Ключевое слово "Nokia"
   steps:
@@ -62,7 +62,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites: |
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Категория - skincare
   steps:
@@ -75,7 +75,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites:
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Категория - laptops
     Цена от - 900
@@ -91,7 +91,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites:
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Чек- бокс включен
   steps:
@@ -168,7 +168,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
   prerequisites: |
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Language- Russian
   steps:
@@ -185,7 +185,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
   prerequisites: |
-    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+    "no-data"
   test-data: |
     Language- English
   steps:
