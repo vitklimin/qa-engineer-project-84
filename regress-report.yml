@@ -5,15 +5,15 @@ test-cases:
     status: pass
 
   - summary: |
-      Успешный просмотр карточки товара при низкой скорости интернета
+      Открытие карточки товара при низкой скорости Интернета
     status: pass
 
   - summary: |
-      Успешный поиск по ключевому слову
+      Проверка поиска по ключевому слову
     status: pass
 
   - summary: |
-      Проверка работы поиска товара по несуществующему ключевому слову на сайте
+      Проверка поиска несуществующего товара
     status: fail
 
   - summary: |
@@ -21,7 +21,7 @@ test-cases:
     status: pass
 
   - summary: |
-      Фильтрация товаров по 2 параметрам
+      Проверка фильтрации по категории и цене
     status: pass
   
   - summary: |
@@ -29,7 +29,7 @@ test-cases:
     status: fail
 
   - summary: |
-      Проверка работы  мобильной версии сайта
+      Проверка мобильной версии
     status: pass
 
   - summary: |
@@ -59,8 +59,7 @@ bugreports:
       Яндекс-браузер   107.0.5304.121 (Официальная сборка) (64 бит)
       ОС Windows 11
     steps-to-reproduce: |
-      1. Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Написать несуществующее ключевое слово в поле "Поиск"
+      1. Написать несуществующее ключевое слово в поле "Поиск"
     expected-result: |
       Сообщение "Ничего не найдено!"
     actual-result: |
@@ -72,8 +71,7 @@ bugreports:
       Яндекс-браузер   107.0.5304.121 (Официальная сборка) (64 бит)
       ОС Windows 11
     steps-to-reproduce: |
-      1. Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Отключить чек- бокс "In Stock"
+      1. Отключить чек- бокс "In Stock"
     expected-result: |
       Показаны все товары что есть на складе и которых нет
     actual-result: |
